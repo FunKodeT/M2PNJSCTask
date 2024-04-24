@@ -6,7 +6,7 @@ const router = express.Router();
 const {getAllTask,getTask,createTask,editTask,deleteTask,} = require('../controllers/tasks');
 
 // Route Retrieval
-router.route('/').get(getAllTask).post(createTask);;
+router.route('/').get(getAllTask).post(createTask);
 router.route('/:id').get(getTask).patch(editTask).delete(deleteTask);
 
 // Module Export
