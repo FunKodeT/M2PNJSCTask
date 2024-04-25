@@ -19,7 +19,12 @@ app.use(notFound);
 app.use(errorHandlerMiddleware);
 
 // Basic Server Start Setup
-const PORT = process.env.PORT||3000;
+/* 
+const port = 3000;
+const port = process.env.PORT||3000;
+const PORT = 3000;
+*/
+const PORT=process.env.PORT||3000;
 const start = async()=>{
     try{
         await connectDB(process.env.MONGO_URI);

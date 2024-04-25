@@ -137,15 +137,96 @@
 |________________________________________________________________________________|
 ||||||||||||||||||||||||||||||||**VERSION 1.0**|||||||||||||||||||||||||||||||||||
 |________________________________________________________________________________|
- 
- 
- 
- 
- 
- 
- 
- 
- 
+|-   Followed and completed video tutorial                                       |
+|        @    https://www.youtube.com/watch?v=qwfE7fSVaZM                        |
+|-   Created a Postman account                                                   |
+|-   Created a MongoDB Atlas account                                             |
+|-   Established an Atlas cluster                                                |
+|-   Moved 'dirty' files into separate folder, cleaned assignment files          |
+|-   Prepped for merge into 0                                                    |
+|-   Verified success of server runtime via Postman application                  |
+|--------------------------------------------------------------------------------|
+|-   Added:                                                                      |
+|    ~   1                          =        (FIRSTVERSIONBRANCH)                |
+|            (BRANCH)                                                            |
+|    ~   db\                                                                     |
+|            (SUBDIR)               =        [MAINDIR\db]                        |
+|    ~   connect.js                                                              |
+|            |0|                    =        [db\]                               |
+|    ~   dirtyJS\                                                                |
+|            (SUBDIR)               =        [MAINDIR\dirtyJS]                   |
+|    ~   errors\                                                                 |
+|            (SUBDIR)               =        [MAINDIR\errors]                    |
+|    ~   custom-error.js                                                         |
+|            |0|                    =        [errors\]                           |
+|    ~   middleware\                                                             |
+|            (SUBDIR)               =        [MAINDIR\middleware]                |
+|    ~   async.js                                                                |
+|            |0|                    =        [middleware\]                       |
+|    ~   error-handler.js                                                        |
+|            |0|                    =        [middleware\]                       |
+|    ~   not-found.js                                                            |
+|            |0|                    =        [middleware\]                       |
+|    ~   models\                                                                 |
+|            (SUBDIR)               =        [MAINDIR\models]                    |
+|    ~   Task.js                                                                 |
+|            |0|                    =        [models\]                           |
+|    ~   tasks.js                                                                |
+|            |0|                    =        [routes\]                           |
+|    ~   .env                                                                    |
+|            |0|                    =        [MAINDIR\]                          |
+|--------------------------------------------------------------------------------|
+|-   Updated:                                                                    |
+|    ~   tasks.js                                                                |
+|            |0.1|*->|1.0|          =        [controllers\]                      |
+|    ~   connect.js                                                              |
+|            |0|->|1.0|             =        [db\]                               |
+|    ~   custom-error.js                                                         |
+|            |0|->|1.0|             =        [errors\]                           |
+|    ~   async.js                                                                |
+|            |0|->|1.0|             =        [middleware\]                       |
+|    ~   error-handler.js                                                        |
+|            |0|->|1.0|             =        [middleware\]                       |
+|    ~   not-found.js                                                            |
+|            |0|->|1.0|             =        [middleware\]                       |
+|    ~   Task.js                                                                 |
+|            |0|->|1.0|             =        [models\]                           |
+|    ~   .env                                                                    |
+|            |0|->|1.0|             =        [MAINDIR\]                          |
+|    ~   tasks.js                                                                |
+|            |0.3|->|1.0|           =        [routes\]                           |
+|    ~   app.js                                                                  |
+|            |0.2|->|1.0|           =        [MAINDIR\]                          |
+|    ~   package.json                                                            |
+|            |0.1|*->|1.0|          =        [MAINDIR\]                          |
+|    ~   .gitignore                                                              |
+|            |0.1|*->|1.0|          =        [MAINDIR\]                          |
+|-   ~   README.txt                                                              |
+|            |0.4|->|1.0|           =        [MAINDIR\]                          |
+|                                                                                |
+|                   * - From 0.1 changes incorreclty notated as 1.0,             |
+|                         see 0.1 insertion.                                     |
+|                                                                                |
+|--------------------------------------------------------------------------------|
+|-   Copied:                                                                     |
+|    ~   controllers\&+                                                          |
+|            [MAINDIR\controllers]  =        [dirtyJS\controllers\&+]            |
+|    ~   db\&+                                                                   |
+|            [MAINDIR\db]           =        [dirtyJS\db\&+]                     |
+|    ~   errors\&+                                                               |
+|            [MAINDIR\errors]       =        [dirtyJS\errors\&+]                 |
+|    ~   middleware\&+                                                           |
+|            [MAINDIR\middleware]   =        [dirtyJS\middleware\&+]             |
+|    ~   models\&+                                                               |
+|            [MAINDIR\models]       =        [dirtyJS\models\&+]                 |
+|    ~   routes\&+                                                               |
+|            [MAINDIR\routes]       =        [dirtyJS\routes\&+]                 |
+|    ~   .env                                                                    |
+|            [MAINDIR\]             =        [dirtyJS\]                          |
+|    ~   app.js                                                                  |
+|            [MAINDIR\]             =        [dirtyJS\]                          |
+|________________________________________________________________________________|
+ ================================================================================
  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 **********************************************************************************
 *    BRANCH 1, VERSION 1.0 NOTES DO NOT REFLECT BRANCH 1, VERSION 1.0 CHANGES    *

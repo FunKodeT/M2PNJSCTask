@@ -8,6 +8,9 @@ const {getAllTask,getTask,createTask,updateTask,deleteTask,} = require('../contr
 // Route Retrieval
 router.route('/').get(getAllTask).post(createTask);
 router.route('/:id').get(getTask).patch(updateTask).delete(deleteTask);
+/* 
+.put(editTask);
+ */
 
 // Module Export
 module.exports = router;
