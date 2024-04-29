@@ -238,6 +238,35 @@
 |            [MAINDIR\]             =        [dirtyJS\]                          |
 |________________________________________________________________________________|
  ================================================================================
+|||||||||||||||||||||||||||||||||   **BRANCH 2**   |||||||||||||||||||||||||||||||
+|________________________________________________________________________________|
+||||||||||||||||||||||||||||||||**VERSION 2.0**|||||||||||||||||||||||||||||||||||
+|________________________________________________________________________________|
+|-   Initiated branch (2) for M2: NodeJS CRUD Continued: Store API Course step   |
+|-   Archived unneseccary files to limit file space used                         |
+|-   Installed latest NPM and Mongoose versions                                  |
+|-   Pushed --all to ORIGIN to maintain synchronization                          |
+|--------------------------------------------------------------------------------|
+|-   Added:                                                                      |
+|    ~   04-store-api-main.zip                                                   |
+|            (EXTRACTED\+)          =        [MAINDIR\]                          |
+|            @   https://github.com/Iskarr/04-store-api                          |
+|--------------------------------------------------------------------------------|
+|-   Removed:                                                                    |
+|    ~   node-express-course-main\                                               |
+|            (MC: No longer required at this time, .zip file is still available) |
+|              =        [Resources\node.express-course-main\]                    |
+|--------------------------------------------------------------------------------|
+|-   Compressed:                                                                 |
+|    ~   MAINDIR\&+                                                              |
+|            [MAINDIR\&+]           =        [Resources\MAINDIR.7z]              |
+|            (MC: Compressed to retain original data while utilizing new data    |
+|              from 04-store-api-main.zip)                                       |
+|--------------------------------------------------------------------------------|
+|-   Updated:                                                                    |
+|    ~   README.txt                                                              |
+|            |0.5|->|2.0|           =        [MAINDIR\]                          |
+|________________________________________________________________________________|
  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 **********************************************************************************
 *    BRANCH 1, VERSION 1.0 NOTES DO NOT REFLECT BRANCH 1, VERSION 1.0 CHANGES    *
