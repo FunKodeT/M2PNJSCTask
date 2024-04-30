@@ -242,12 +242,17 @@
 |________________________________________________________________________________|
 ||||||||||||||||||||||||||||||||**VERSION 2.0**|||||||||||||||||||||||||||||||||||
 |________________________________________________________________________________|
+|\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
+|THIS COMMIT IS STILL APPLICABLE, THOUGH CANNOT BE OBSERVED DUE TO BRANCH 2 RESET|
+|\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
 |-   Initiated branch (2) for M2: NodeJS CRUD Continued: Store API Course step   |
 |-   Archived unneseccary files to limit file space used                         |
 |-   Installed latest NPM and Mongoose versions                                  |
 |-   Pushed --all to ORIGIN to maintain synchronization                          |
 |--------------------------------------------------------------------------------|
 |-   Added:                                                                      |
+|    ~   2                                                                       |
+|            (BRANCH)                                                            |
 |    ~   04-store-api-main.zip                                                   |
 |            (EXTRACTED\+)          =        [MAINDIR\]                          |
 |            @   https://github.com/Iskarr/04-store-api                          |
@@ -267,6 +272,54 @@
 |    ~   README.txt                                                              |
 |            |0.5|->|2.0|           =        [MAINDIR\]                          |
 |________________________________________________________________________________|
+||||||||||||||||||||||||||||||||**VERSION 2.1**|||||||||||||||||||||||||||||||||||
+|________________________________________________________________________________|
+|-   Initiated video tutorial                                                    |
+|        @   https://www.youtube.com/watch?v=qwfE7fSVaZM (MC: Project 2)         |
+|-   Completed video tutorial                                                    |
+|        @   https://www.youtube.com/watch?v=qwfE7fSVaZM (MC: Project 2)         |
+|-   Re-established 2                                                            |
+|        (BRANCH) (MC: DUE TO CLOSURE OF PROGRAM AT EOD, UPON REOPEN VS:C WILL   |
+|          DEFAULT TO THE ORIGINAL BRANCH WITH CHANGES THAT ARE MADE ON A        |
+|          DIFFERENT BRANCH. THIS HAS RESULTED IN ME TAINTING MY 0 BRANCH WITH   |
+|          CHANGES THAT WERE MADE ON 2 BUT THAT WERE NOT COMMITED BEFORE CLOSURE.|
+|-   Pushed --all to ORIGIN to maintain synchronization
+|--------------------------------------------------------------------------------|
+|-   Added:                                                                      |
+|    ~   .env                                                                    |
+|            |0|                    =        [MAINDIR\]                          |
+|    ~   dirtyJS\                                                                |
+|            (SUBDIR)               =        [MAINDIR\]                          |
+|--------------------------------------------------------------------------------|
+|-   Removed:                                                                    |
+|    ~   README.md                                                               |
+|            |0|                    =        [MAINDIR\]                          |
+|--------------------------------------------------------------------------------|
+|-   Updated:                                                                    |
+|    ~   products.js                                                             |
+|            |0|->|2.1|             =        [controllers\]                      |
+|    ~   products.js                                                             |
+|            |0|->|2.1|             =        [routes\]                           |
+|    ~   app.js                                                                  |
+|            |0|->|2.1|             =        [MAINDIR\]                          |
+|    ~   package.json                                                            |
+|            |0|->|2.1|             =        [MAINDIR\]                          |
+|    ~   product.js                                                              |
+|            |0|->|2.1|             =        [models\]                           |
+|    ~   populatejs                                                              |
+|            |0|->|2.1|             =        [MAINDIR\]                          |
+|    ~   .env                                                                    |
+|            |0|->|2.1|             =        [MAINDIR\]                          |
+|    ~   .gitignore                                                              |
+|            |0|->|2.1|             =        [MAINDIR\]                          |
+|    ~   README.txt                                                              |
+|            |2.0|->|2.1|           =        [MAINDIR\]                          |
+|--------------------------------------------------------------------------------|
+|-   Copied:                                                                     |
+|    ~   controllers\&+                                                          |
+|            [MAINDIR\controllers\&+]->[dirtyJS\controllers\&+]                  |
+|    ~   models\&+                                                               |
+|            [MAINDIR\models\&+]->[dirtyJS\models\&+]                            |
  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 **********************************************************************************
 *    BRANCH 1, VERSION 1.0 NOTES DO NOT REFLECT BRANCH 1, VERSION 1.0 CHANGES    *
